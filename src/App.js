@@ -46,7 +46,7 @@ export default function App() {
     <div className="App">
       <div className="pizza-header">
         <h1>Pizza ABC</h1>
-        <p>We are currently serving one pizza only. Please tate and review.</p>
+        <p>We are currently serving one pizza only. Please taste and review.</p>
       </div>
 
       <div className="pizza-body">
