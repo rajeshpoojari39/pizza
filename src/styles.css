@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 5% auto 0 auto;
+  border: 1px solid black;
+}
+
+.pizza-header {
+  max-width: 80%;
+  margin: 2% auto;
+  text-align: left;
+}
+
+.pizza-header p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.pizza-body {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-self: center;
+}
+
+.pizza-add {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pizza-add p {
+  font-size: 1.5rem;
+}
+
+.pizza-add button {
+  margin: 0 10px;
+}
+
+.pizza-footer {
+  display: flex;
+  height: 140px;
+  justify-content: flex-end;
+}
+
+.pizza-footer p {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+.discount {
+  color: blue;
+}
+
+.discount input {
+  margin-left: 4%;
+}
+
+.topay {
+  color: red;
+}
+
+.pizza-footer div {
+  margin-right: 10%;
+  width: 150px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
